@@ -1,6 +1,6 @@
 import { useState } from "react";
-
-import Header from "./components/Header";
+import { Routes, Route, Link } from "react-router-dom";
+import Header from "./components/header";
 import "./App.css";
 import Home from "./components/Home";
 
@@ -10,7 +10,7 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
-			<Home />
+			{/* <Home /> */}
 		</div>
 	);
 }

@@ -7,7 +7,7 @@ function index() {
 	return (
 		<div className="home">
 			<Banner />
-			<div className="home_section">index</div>
+			<div className="home_section"></div>
 		</div>
 	);
 }

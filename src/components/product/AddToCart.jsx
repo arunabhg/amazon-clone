@@ -4,7 +4,12 @@ import RemoveIcon from "@mui/icons-material/Remove";
 
 import "./AddToCart.scss";
 
+import { useCartDispatch, useCartState } from "../../cart-context";
+
 function AddToCart({ product }) {
+	const { products } = useCartState();
+	const dispatch = useCartDispatch();
+
 	const cartEntry = products[product.id];
 	if (cartEntry) {
 		return (

@@ -1,6 +1,7 @@
 import React from "react";
 import StarIcon from "@mui/icons-material/Star";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
+import classNames from "classnames";
 
 import "./Rating.scss";
 

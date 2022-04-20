@@ -7,9 +7,9 @@ import "./index.scss";
 
 import Loader from "../../components/general/Loader";
 import Error from "../../components/general/Error";
-import product from "../../api/product";
+import productsApi from "../../api/product";
 
-function Product() {
+function ProductPage() {
 	let { productId } = useParams();
 
 	const [product, setProduct] = useState(null);
@@ -52,4 +52,4 @@ function Product() {
 	}
 }
 
-export default Product;
+export default ProductPage;

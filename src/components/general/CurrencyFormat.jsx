@@ -2,7 +2,7 @@ import React from "react";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import classNames from "classnames";
 
-import "./CurrenyFormat.scss";
+import "./CurrencyFormat.scss";
 
 const currenyCodeIconMap = {
 	INR: CurrencyRupeeIcon

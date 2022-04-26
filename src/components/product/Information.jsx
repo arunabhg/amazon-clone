@@ -1,7 +1,7 @@
 import React from "react";
 import "./Information.scss";
-import Rating from "components/general/Rating";
-import CurrencyFormat from "components/general/CurrencyFormat";
+import Rating from "../general/Rating";
+import CurrencyFormat from "../general/CurrencyFormat";
 import AddToCart from "./AddToCart";
 
 function Information({ product }) {

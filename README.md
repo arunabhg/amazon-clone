@@ -10,7 +10,7 @@ This is a clone of e-commerce site Amazon. Here customers can view different pro
 
 ![Home Page](./src/images/HomePageImage.png "Home Page")
 
-![Products](./src/images/ProductCardsImage.png "Products")
+![Product Details](./src/images/ProductDetailImage.png "Product Details")
 
 ![Cart](./src/images/CartPageImage.png "Cart")
 

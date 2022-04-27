@@ -1,10 +1,12 @@
 import React from "react";
 import "./Information.scss";
 import Rating from "../general/Rating";
+import { calculatePriceDetails } from "../../utils/products";
 import CurrencyFormat from "../general/CurrencyFormat";
 import AddToCart from "./AddToCart";
 
 function Information({ product }) {
+	const { finalPrice, basePrice } = calculatePriceDetails(product.price);
 	return (
 		<>
 			{product && (
@@ -27,7 +29,7 @@ function Information({ product }) {
 								<CurrencyFormat
 									className="product-card__amount strikethrough"
 									currencyCode={product.price.currency}
-									value={product.price.base}
+									value={basePrice}
 								/>
 							</div>
 							<div className="information__price">
@@ -35,7 +37,7 @@ function Information({ product }) {
 								<CurrencyFormat
 									className="product-card__amount"
 									currencyCode={product.price.currency}
-									value={product.price.final}
+									value={finalPrice}
 								/>
 							</div>
 							<div>

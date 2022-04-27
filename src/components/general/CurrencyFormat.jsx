@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "./CurrencyFormat.scss";
 
-const currenyCodeIconMap = {
+const currencyCodeIconMap = {
 	INR: CurrencyRupeeIcon
 };
 
@@ -25,7 +25,7 @@ function CurrencyFormat({
 			{...remainingProps}>
 			<CurrencyRupeeIcon fontSize="medium" />
 			<span className="currency-format__value">
-				{value.toLocaleString(currencyCodeLocaleMap[currencyCode])}
+				{value?.toLocaleString(currencyCodeLocaleMap[currencyCode]) || ""}
 			</span>
 		</div>
 	);

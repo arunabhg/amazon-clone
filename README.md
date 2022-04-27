@@ -1,6 +1,6 @@
 # Introduction
 
-This is a clone of e-commerce site Amazon. Here customers can view different products, their prices, ratings and add, delete items to cart.
+This is a clone of a popular e-commerce site. Here customers can view different products, product details and add, delete items to cart.
 
 - The products, their ratings and prices are picked up using a mock API.
 
@@ -8,10 +8,13 @@ This is a clone of e-commerce site Amazon. Here customers can view different pro
 
 - Customer can add/remove items from the cart. The total items are displayed in the cart.
 
+### Home Page
 ![Home Page](./src/images/HomePageImage.png "Home Page")
 
+### Product Details
 ![Product Details](./src/images/ProductDetailImage.png "Product Details")
 
+### Cart
 ![Cart](./src/images/CartPageImage.png "Cart")
 
 ## Technologies Used
